@@ -1,0 +1,22 @@
+<div class="combine">
+    <div id="current_date" style="    margin-left: 45%; padding: 32px;">
+        <div class="today">
+            <script>
+                date = new Date();
+                year = date.getFullYear();
+                month = date.getMonth() + 1;
+                day = date.getDate();
+                document.getElementById("current_date").innerHTML = month + "/" + day + "/" + year;
+            </script>
+        </div>
+    </div>
+
+    <div  class="board" style="margin-top: -8px;">
+
+        <div contenteditable="false">
+            The vault without the key. <br> Be free from your worries.
+          </div>
+            <textarea name="" id="" cols="59" rows="20" placeholder=" Write Down Your Emotions. "></textarea>
+    </div>
+</div>
+<a href="/" ><button type="button" class="btn btn-primary"  style="margin-left: 376px; width:10%; margin-top:10px;" ><strong>Erase It</strong></button></a>
