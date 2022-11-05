@@ -10,7 +10,7 @@
 :root{
     --bs-font-sans-serif: 'Roboto', sans-serif;
 }
-.container { max-width: 1900px;}
+.container { max-width: 1800px;}
 
 .hero {
     display: flex;
